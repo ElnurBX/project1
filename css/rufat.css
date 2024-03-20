@@ -367,4 +367,82 @@ font-size: 17px;
     text-transform: capitalize;
     padding-bottom: 25px 
 }
-
+.workers{
+    width: 100%;
+    border-radius: 30px;
+}
+.blogimg{
+    position: relative;
+}
+.news{
+ flex-wrap: nowrap;
+ gap: 20px;
+}
+.posttime{
+    position: absolute;
+    left: 10px;
+    bottom: 25px;
+    z-index: 50;
+    text-decoration: none;
+    color: white;
+    background-color: #0a9642;
+    padding: 8px 15px;
+    border-radius: 30px;
+}
+.designheading {
+    margin-right: 225px;
+    color: #666;
+    border-bottom: 1px solid #666;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.descriptionsolar{
+    text-align: left;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.descriptsolar{
+    padding-bottom: 26px;
+    color: black;
+}
+.authorpfp img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.authorblock{
+    display: flex;
+    align-items: center;
+}
+.authorpfp{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.commentimg{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.comment{
+    margin-right: 10px;
+    align-items: center;
+}
+.buttonview{
+    text-decoration:none;
+    padding: 16px 34px;
+    font-size: 18px;
+    background-color: #fe5716;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 65px;
+    color: white;
+    font-weight: bold;
+    width: auto;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+}
