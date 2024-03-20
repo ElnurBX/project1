@@ -1,8 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 /* Section-2 */
 .section-2{
     display: flex;
@@ -202,8 +197,13 @@
 
 /* Section-4 */
 .section-4{
+
     margin-top: 3rem;
     background-color: #FAFAFA;
+}
+.slide-cut{
+    height: 700px;
+    overflow: hidden;
 }
 .section-4-heading{
     display: flex;
@@ -231,9 +231,13 @@
 }
 .section-4-items{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    width: 600%;
+    width: 300%;
+
+}
+.section4__slider{
+    display: flex;
+    gap: 2.5rem;
 }
 .section-4-slide{
     border-radius: 2rem;
@@ -311,14 +315,19 @@ figure:hover{
     right: 1rem;
 }
 .section-4-dots{
-    display: inline-block;
-    zoom: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     margin-top: 10rem;
-    width: 100%;
+    margin: auto;
+    width:100%;
+    padding:0 20%;
 }
 .section-4-dot{
+    display: inline-block;
     background-color: #d9d9d9;
-    height: 0.625px;
+    height: 5px;
     width: 33%;
     margin-bottom: 3.75rem;
     transition: 0.3s;
@@ -397,6 +406,26 @@ box-shadow: inset 0 0 0 2000px rgba(250,250,250,0.9);
 .video {
     position: relative;
 }
+.video i {
+    animation: pulse 1s infinite;
+    width: 94px;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    outline: 5px solid #0a9642;
+    background-color: #0A9642;
+}
+@keyframes pulse{
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.4);
+    }
+    100% {
+        box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+    }
+}
 .video img{
     border-radius: 2rem;
 }
@@ -452,43 +481,88 @@ box-shadow: inset 0 0 0 2000px rgba(250,250,250,0.9);
     margin: 0;
     font-weight: 400;
 }
-
-/* @media only screen and (max-width:2580px) {
-    .container{  
-        width: 2200px;
-    }
-    
+/* Section-6 */
+.section-6 .heading {
+    padding-bottom: 2.5rem;
 }
-@media only screen and (max-width:1440px){
-    .container{
-        width: 1140px;
+.heading {
+    text-align: center;
+    position: relative;
+}
+.section-6 .heading .line {
+    margin: auto;
+    margin-bottom: 1.125rem;
+    margin-top: 0.25rem;
+}
+.section-6 .heading h2 {
+    width: 71%;
+    margin: auto;
+}
+.heading h2 {
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    line-height: 4.125rem;
+    padding-bottom: 1.5rem;
+}
+.heading .line {
+    display: block;
+    width: 5.2rem;
+    height: 3px;
+    background-color: #fe5716;
+    margin-bottom: 1.125rem;
+    margin-top: 0.25rem;
+}
+.heading p {
+    color: #fe5716;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center
+}
+.free-consultation {
+    border: 5px solid #D9D9D9;
+    border-radius: 1.875rem;
+    padding: 25px;
+    padding-left: 0;
+    width: 95%;
+    margin-left: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.free-consultation-number {
+    display: flex;
+    align-items: center;
+    background-color: #FAFAFA;
+    justify-content: space-between;
+    padding-left: 3.125rem;
+    border-radius: 1.875rem;
+    margin-bottom: 1.6rem;
+    margin-left: -1.25rem;
+}
+.free-consultation-number h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 2.25rem;
+}
+.free-consultation span{
+    background-color: #0A9642;
+    color: white;
+    transition: 0.3s ease-in-out;
+    padding: 3rem 1.9rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+.free-consultation:hover{
+    span{
+        background-color: #fe5716;
     }
-} */
-@media only screen and (max-width:994px) {
-    .container{  
-        width: 720px;
-    }
-    .section-2 .col-6{
-        padding-left: 1.5rem;
-        width: 100%;
-    }
-    .section-3 .col-6{
-        width: 100%;
-    }
-    .section-3 .battery-row{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-    }
-    .section-3 .battery-storage.two{
-        margin-left: 0;
-        width: 98%;
-        height: 20rem;
-    }
-     .count-title-text .row{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
+}
+.free-consultation p {
+    padding-left: 3.2rem;
+    padding-bottom: 3.125rem;
+    line-height: 130%;
+}
+.free-consultation svg{
+    margin: 0 0 0 2rem;
 }
