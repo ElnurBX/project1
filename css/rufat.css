@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width:  1220px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    row-gap: 10px;
+}
+.col-1{
+    width: calc(100% / 12);
+    margin: 0 auto;
+}
+.col-2{
+    width: calc(100% / 6);
+    margin: 0 auto;
+}
+.col-3{
+    width: calc(100% / 4);
+    margin: 0 auto;
+}
+.col-4{
+    width: calc(100% / 3);
+    margin: 0 auto;
+}
+.col-5{
+    width: calc(100% / 12 *5);
+    margin: 0 auto;
+}
+.col-6{
+    
+    width: calc(100% / 2);
+    margin: 0 auto;
+}
+.col-7{
+    width: calc(100% / 12 * 7);
+    margin: 0 auto;
+}
+.col-8{
+    width: calc(100% / 3 * 2);
+    margin: 0 auto;
+}
+.col-9{
+    width: calc(100% / 4 * 3);
+    margin: 0 auto;
+}
+.col-10{
+    width: calc(100% / 6 * 5);
+    margin: 0 auto;
+}
+.col-11{
+    width: calc(100% / 12 * 11);
+    margin: 0 auto;
+}
+.col-12{
+    width: 100%;
+    margin: auto;
+}
+.testimonials{
+    display: flex;
+    padding: 50px;
+}
+.mainimg{
+    padding-left: 200px;
+}
+
+body{
+ font-family: "Sora";
+}
+.mainimg img{
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+}
+.headingtestimonials{
+    margin-bottom: 50px;
+}
+.headingtestimonials p{
+    color: #fe5716;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.linetestimonials{
+    display: block;
+    width: 83px;
+    height: 3px;
+    background-color: #fe5716;
+    margin-bottom: 18px;
+    margin-top: 4px;
+}
+h2{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.reviewauthor{
+ display: flex!important;
+align-items: center!important;
+}
+i{
+    font-size: 40px;
+    color: white;
+}
+.reviewauthor i{
+    background-color: #0A9642;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.clientreviewstext h3{
+    line-height: 40px;
+    font-size: 24px;
+    padding-bottom: 30px;
+    color: gray;
+    font-weight: 500;
+}
+h4{
+    font-size: 32px;
+    font-weight: bold;
+}
+.headingpricing{
+    text-align: center;
+}
+.headingpricing p{
+    
+        color: #fe5716;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 16px;
+        line-height: 26px;
+}
+.lineplans{
+    margin: auto;
+    margin-bottom: 18px;
+    margin-top: 4px;
+    width: 83px;
+    height: 3px;
+    background-color: #fe5716;
+}
+.solarenergy{
+    margin-right: 30px;
+    position: relative;
+     background-color: white;
+     border-radius: 30px;
+    padding: 30px;
+    border: 5px solid #0A9642;
+    z-index: 1;
+     margin-top: 18px; 
+}
+.solarenergy img{
+    width: 166px;
+    height: 166px;
+}
+.solarenergy h2{
+    padding-top: 20px;
+}
+li img{
+    width: 24px !important;
+    height: 24px !important;
+}
+.pricingplans{
+    display: flex;
+    flex-wrap: wrap;
+}
+.solarenergy ul{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.solarenergy ul li{
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    color: black;
+}
+.solarenergy h3{
+ padding-top: 20px;
+}
+.button{
+    text-decoration:none;
+    padding: 16px 34px;
+    font-size: 14px;
+    background-color: #fe5716;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 65px;
+    color: white;
+    font-weight: bold;
+    width: auto;
+    position: relative;
+    z-index: 1;
+}
+.solarenergy::before{
+    background-color: #0A9642;
+    top: -17px;
+    content: "";
+    width: 86%;
+    height: 17px;
+    z-index: -30;
+    position: absolute;
+    border-radius: 83px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    left: 7.5%;
+}
+.solarenergy::after{
+    background-color: #0A9642;
+    bottom: -17px;
+    content: "";
+    width: 86%;
+    height: 17px;
+    z-index: -30;
+    position: absolute;
+    border-radius: 83px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    left: 7.5%;
+    
+}
+.mainh2{
+    padding-bottom: 25px;
+}
+.request{
+    padding-top: 300px;
+}
+.request-quote{
+    background-image: url(https://wellconcept.co/html/energix/assets/img/footer.jpg);
+}
+.request container{
+    max-width: 1440px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.rowdform{
+    border-radius: 30px;
+    position: relative;
+    height: 467px;
+    background: linear-gradient(rgb(23,25,90,0.8),rgb(23,25,90,0.8));
+}
+.headingform{
+    margin: 0 !important;
+    padding: 50px 10px 80px 50px;
+}
+.headingform p {
+    color: #fe5716;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.request-quote{
+    border-radius: 30px;
+}
+.headingform h2,h6{
+    color: white;
+}
+.form{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+.lineform{
+    width: 83px;
+    height: 3px;
+    background-color: #fe5716;
+    margin-bottom: 18px;
+    margin-top: 4px;
+}
+.headingform h2{
+    width: 476px;   
+    padding-right: px;
+    padding-bottom: 50px;
+}
+.headingform h6{
+    font-size: 16px;
+}
+.form{
+    width: 476px;
+    background-color: #0a9642;
+    padding: 30px;
+    border-radius: 20px;
+}
+form.request-quote-form input,form.request-quote-form textarea{
+    width: 100%;
+    height: 60px;
+    border-radius: 60px;
+    border: 0;
+    outline: none;
+    margin-bottom: 24px;
+    padding-left: 30px;
+    
+}
+form.request-quote-form textarea{
+    height: 115px;
+    padding-top: 20px;
+    resize: vertical;
+    border-radius: 20px;
+}
+form.request-quote-form textarea {
+ padding-top: 20px;
+}
+.button1{
+    padding: 16px 0;
+    font-size: 14px;
+    width: 40%;
+    background-color: #fe5716;
+    border-radius: 65px;
+    border: 1px solid #fe5716;
+    color: white;
+    font-weight: bold;
+    z-index: 1;
+}
+form.request-quote-form input,form.request-quote-form textarea::placeholder{
+font-family: "Sora";
+color: #8B7575;
+font-weight: 400;
+font-size: 17px;
+}
+.blogandupdates{
+    padding-top: 300px;
+}
+.blogandupdates{
+    text-align: center;
+}
+.blogandupdates p{
+    
+        color: #fe5716;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 16px;
+        line-height: 26px;
+}
+.lineblog{
+    margin: auto;
+    margin-bottom: 18px;
+    margin-top: 4px;
+    width: 83px;
+    height: 3px;
+    background-color: #fe5716;
+}
+.headingblog h2{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-bottom: 25px 
+}
+.workers{
+    width: 100%;
+    border-radius: 30px;
+}
+.blogimg{
+    position: relative;
+}
+.news{
+ flex-wrap: nowrap;
+ gap: 20px;
+}
+.posttime{
+    position: absolute;
+    left: 10px;
+    bottom: 25px;
+    z-index: 50;
+    text-decoration: none;
+    color: white;
+    background-color: #0a9642;
+    padding: 8px 15px;
+    border-radius: 30px;
+}
+.designheading {
+    margin-right: 225px;
+    color: #666;
+    border-bottom: 1px solid #666;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.descriptionsolar{
+    text-align: left;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.descriptsolar{
+    padding-bottom: 26px;
+    color: black;
+}
+.authorpfp img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.authorblock{
+    display: flex;
+    align-items: center;
+}
+.authorpfp{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.commentimg{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.comment{
+    margin-right: 10px;
+    align-items: center;
+}
+.buttonview{
+    text-decoration:none;
+    padding: 16px 34px;
+    font-size: 18px;
+    background-color: #fe5716;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 65px;
+    color: white;
+    font-weight: bold;
+    width: auto;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+}
