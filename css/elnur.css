@@ -45,9 +45,7 @@ header {
     position: relative;
     z-index: 11;
 }
-body {
-    background-color: rebeccapurple;
-}
+
 .topbar {
     height: 3rem;
     display: flex;
