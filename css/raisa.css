@@ -1,11 +1,7 @@
-* {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-}
+
 
 footer {
-     position: absolute;
+
      bottom: 0;
      font-family: 'Sora';
      background-image: url(https://cdn.musavat.com/news/thumbnails/1c3a164d04cbc5d8548160bc09734967.jpg);
