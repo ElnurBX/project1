@@ -108,7 +108,7 @@ h2{
  display: flex!important;
 align-items: center!important;
 }
-i{
+.reviewauthor i{
     font-size: 40px;
     color: white;
 }
