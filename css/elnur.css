@@ -188,24 +188,12 @@ li.innermenu ul {
 .innermenu li:hover {
     color: white;
 }
-
 .innermenu li:hover:before {
     transform: scaleX(1);
 }
-
-
-
-
-
-
-
-
-
-
 .innermenu:hover ul {
     visibility: visible;
 }
-
 .innermenu ul::before {
     content: "";
     width: 40%;
@@ -215,19 +203,15 @@ li.innermenu ul {
     left: 0;
     background-color: #0A9642;
 }
-
 .navbar__serceh {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-
-
 .navbar__serceh svg {
     height: 2rem;
     width: 2rem;
 }
-
 .section1 {
     overflow: hidden;
     width: 100%;
@@ -235,7 +219,6 @@ li.innermenu ul {
     padding: 0 0 7rem 0;
     /* scroll-behavior: smooth; */
 }
-
 .slider {
     animation: slide 4s;
     animation-duration: 20s;
@@ -246,22 +229,17 @@ li.innermenu ul {
     width: 400%;
     display: flex;
 }
-
 .slider__slide {
-
     position: relative;
-
     width: 100%;
     height: 32rem;
 }
-
 .slider__slide img {
     position: absolute;
     z-index: -1;
     width: 100%;
     height: 45rem;
 }
-
 .slider__ova {
     transition: all ease 1s;
     position: absolute;
@@ -275,10 +253,7 @@ li.innermenu ul {
     top: -8%;
     animation: fade-down 4.9s;
     animation-iteration-count: infinite;
-
-
 }
-
 .slide__discrip {
     color: #fff;
     display: flex;
@@ -290,21 +265,17 @@ li.innermenu ul {
     width: 30rem;
     animation: discrip 4.9s;
     animation-iteration-count: infinite;
-
 }
 .slide__discrip .button{
     width: 10rem;
 }
-
 .slide__discrip .button:hover {
     background-color: transparent !important;
 }
-
 .slide__discrip h2 {
     font-size: 3.75rem;
     font-weight: bold;
 }
-
 .deyis {
     gap: 10%;
     position: absolute;
@@ -312,7 +283,6 @@ li.innermenu ul {
     right: 20%;
     display: flex;
 }
-
 .deyis a {
     text-decoration: none;
     display: flex;
@@ -326,20 +296,16 @@ li.innermenu ul {
     background-color: #FE5716;
     color: #fff;
 }
-
 @keyframes fade-down {
-
     from{
         opacity: 0;
         top: -80%;
-
     }
     to{
         top: -7%;
         opacity: 1;
     }
 }
-
 @keyframes discrip {
     from{
         opacity: 0;
@@ -351,7 +317,6 @@ li.innermenu ul {
     }
 }
 @keyframes slide {
-
     0%{
         transform: translate(0,0);
     }
@@ -361,13 +326,10 @@ li.innermenu ul {
     50%{
         transform: translate(-50%,0);
     }
-
     75%{
         transform: translate(-75%,0);
     }
     100%{
         transform: translate(0,0);
     }
-
-
 }
