@@ -47,9 +47,7 @@ footer a {
      line-height: 1.5;
      padding-bottom: 10px;
 }
-.input {
-     position: relative;
-}
+
 .col4 input {
      background-color: rgba(0, 0, 0, 0);
      width: 25rem;
@@ -63,15 +61,20 @@ footer a {
      font-weight: bold;
      color: white;
 }
+.input {
+     margin-top: 1rem;
+     position: relative;
+     
+}
 .col4 button {
      position: absolute;
-     top: 0.3rem;
-     right: 0.5rem;
+     top: 0.2rem;
+     right: -6rem;
      background-color: #FE5716;
      width: 4rem;
      height: 3rem;
      border-radius: 50%;
-     border: 2px solid white;
+     border: 0px solid white;
 
 }
 .col4  i {
@@ -108,6 +111,7 @@ footer a {
      display: flex;
      justify-content: space-evenly;
      padding-top: 80px;
+     gap: 4rem;
 }
 
 .footer_contact .contact-info {
@@ -118,7 +122,7 @@ footer a {
 .footer_contact .col4 {
      border-radius: 3.5rem;
      height: 85px;
-     width: 430px;
+     width: 50rem;
      background-color: #0A9642;
      
 }
