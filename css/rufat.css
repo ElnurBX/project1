@@ -1,27 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.testimonials{
+
+.testimonials {
     display: flex;
     padding: 50px;
 }
-.mainimg{
-    padding-left: 200px;
-}
 
-body{
- font-family: "Sora";
+
+.mainimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.mainimg img{
+.mainimg img {
     width: 360px;
     height: 360px;
     border-radius: 50%;
 }
-.headingtestimonials{
+
+.headingtestimonials {
     margin-bottom: 50px;
 }
-.headingtestimonials p{
+
+.headingtestimonials p {
     color: #fe5716;
     text-transform: uppercase;
     font-weight: bold;
@@ -29,7 +32,8 @@ body{
     font-size: 16px;
     line-height: 26px;
 }
-.linetestimonials{
+
+.linetestimonials {
     display: block;
     width: 83px;
     height: 3px;
@@ -37,21 +41,25 @@ body{
     margin-bottom: 18px;
     margin-top: 4px;
 }
-.headingtestimonials h2{
+
+.headingtestimonials h2 {
     font-size: 48px;
     line-height: 58px;
     font-weight: 800;
     text-transform: capitalize;
 }
-.reviewauthor{
- display: flex!important;
-align-items: center!important;
+
+.reviewauthor {
+    display: flex !important;
+    align-items: center !important;
 }
-.reviewauthor i{
+
+.reviewauthor i {
     font-size: 40px;
     color: white;
 }
-.reviewauthor i{
+
+.reviewauthor i {
     background-color: #0A9642;
     width: 80px;
     height: 80px;
@@ -61,30 +69,35 @@ align-items: center!important;
     align-items: center;
     margin-right: 20px;
 }
-.clientreviewstext h3{
+
+.clientreviewstext h3 {
     line-height: 40px;
     font-size: 24px;
     padding-bottom: 30px;
     color: gray;
     font-weight: 500;
 }
-.positionname h4{
+
+.positionname h4 {
     font-size: 32px;
     font-weight: bold;
 }
-.headingpricing{
+
+.headingpricing {
     text-align: center;
 }
-.headingpricing p{
-    
-        color: #fe5716;
-        text-transform: uppercase;
-        font-weight: bold;
-        letter-spacing: 2px;
-        font-size: 16px;
-        line-height: 26px;
+
+.headingpricing p {
+
+    color: #fe5716;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 26px;
 }
-.lineplans{
+
+.lineplans {
     margin: auto;
     margin-bottom: 18px;
     margin-top: 4px;
@@ -92,61 +105,73 @@ align-items: center!important;
     height: 3px;
     background-color: #fe5716;
 }
-.solarenergy{
+
+.solarenergy {
     margin-right: 30px;
     position: relative;
-     background-color: white;
-     border-radius: 30px;
+    background-color: white;
+    border-radius: 30px;
     padding: 30px;
     border: 5px solid #0A9642;
     z-index: 1;
-     margin-top: 18px; 
+    margin-top: 18px;
 }
-.solarenergy p{
+
+.solarenergy p {
     color: grey;
 }
-.solarenergy img{
+
+.solarenergy img {
     width: 166px;
     height: 166px;
 }
-.solarenergy h2{
+
+.solarenergy h2 {
     font-size: 50px;
     line-height: 56px;
     padding-top: 20px;
     font-weight: bold;
 }
-.solarenergy span{
+
+.solarenergy span {
     font-weight: bold;
     color: #0A9642;
 }
-li img{
+
+li img {
     width: 24px !important;
     height: 24px !important;
 }
-.pricingplans{
+
+.pricingplans {
     display: flex;
     flex-wrap: wrap;
 }
-.solarenergy ul{
+
+.solarenergy ul {
     padding-top: 25px;
     padding-bottom: 15px;
 }
-.solarenergy ul li{
+
+.solarenergy ul li {
     padding-bottom: 20px;
     align-items: center;
     display: flex;
     font-size: 16px;
     color: black;
 }
-.solarenergy h3{
- padding-top: 20px;
+
+.solarenergy h3 {
+    padding-top: 20px;
 }
-.solarenergy sub{
+
+.solarenergy sub {
     font-size: 16px;
     color: grey;
 }
-.button{
-    text-decoration:none;
+
+.button {
+    text-decoration: none;
     padding: 16px 34px;
     font-size: 14px;
     background-color: #fe5716;
@@ -159,7 +184,8 @@ li img{
     position: relative;
     z-index: 1;
 }
-.solarenergy::before{
+
+.solarenergy::before {
     background-color: #0A9642;
     top: -17px;
     content: "";
@@ -172,7 +198,8 @@ li img{
     border-bottom-right-radius: 0;
     left: 7.5%;
 }
-.solarenergy::after{
+
+.solarenergy::after {
     background-color: #0A9642;
     bottom: -17px;
     content: "";
@@ -184,79 +211,97 @@ li img{
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     left: 7.5%;
-    
+
 }
-.mainh2{
+
+.mainh2 {
     padding-bottom: 25px;
 }
-.request{
+
+.request {
     padding-top: 300px;
 }
-.request-quote{
+
+.request-quote {
     background-image: url(https://wellconcept.co/html/energix/assets/img/footer.jpg);
 }
-.request container{
+
+.request container {
     max-width: 1440px;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: 200px;
     margin-right: 200px;
 }
-.rowdform{
+
+.rowdform {
     border-radius: 30px;
     position: relative;
     height: 467px;
-    background: linear-gradient(rgb(23,25,90,0.8),rgb(23,25,90,0.8));
+    background: linear-gradient(rgb(23, 25, 90, 0.8), rgb(23, 25, 90, 0.8));
 }
-.headingform{
+
+.headingform {
     margin: 0 !important;
     padding: 50px 10px 80px 50px;
 }
+
 .headingform p {
     color: #fe5716;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
 }
-.request-quote{
+
+.request-quote {
     border-radius: 30px;
 }
-.headingform h2,h6{
+
+.headingform h2,
+h6 {
     color: white;
 }
-.form{
+
+.form {
     position: absolute;
     right: 10%;
     top: 30%;
 }
-.form form{
+
+.form form {
     display: flex;
     flex-direction: column;
 }
-.lineform{
+
+.lineform {
     width: 83px;
     height: 3px;
     background-color: #fe5716;
     margin-bottom: 18px;
     margin-top: 4px;
 }
-.headingform h2{
-    width: 476px;   
+
+.headingform h2 {
+    width: 476px;
     font-size: 42px;
     line-height: 52px;
     padding-bottom: 50px;
 }
-.headingform h6{
+
+.headingform h6 {
     font-size: 16px;
     line-height: 32px
 }
-.form{
+
+.form {
     width: 476px;
     background-color: #0a9642;
     padding: 30px;
     border-radius: 20px;
 }
-form.request-quote-form input,form.request-quote-form textarea{
+
+form.request-quote-form input,
+form.request-quote-form textarea {
     width: 100%;
     height: 60px;
     border-radius: 60px;
@@ -264,18 +309,21 @@ form.request-quote-form input,form.request-quote-form textarea{
     outline: none;
     margin-bottom: 24px;
     padding-left: 30px;
-    
+
 }
-form.request-quote-form textarea{
+
+form.request-quote-form textarea {
     height: 115px;
     padding-top: 20px;
     resize: vertical;
     border-radius: 20px;
 }
+
 form.request-quote-form textarea {
- padding-top: 20px;
+    padding-top: 20px;
 }
-.button1{
+
+.button1 {
     padding: 16px 0;
     font-size: 14px;
     width: 40%;
@@ -286,29 +334,35 @@ form.request-quote-form textarea {
     font-weight: bold;
     z-index: 1;
 }
-form.request-quote-form input,form.request-quote-form textarea::placeholder{
-font-family: "Sora";
-color: #8B7575;
-font-weight: 400;
-font-size: 17px;
+
+form.request-quote-form input,
+form.request-quote-form textarea::placeholder {
+    font-family: "Sora";
+    color: #8B7575;
+    font-weight: 400;
+    font-size: 17px;
 }
-.blogandupdates{
+
+.blogandupdates {
     padding-top: 300px;
     padding-bottom: 100px;
 }
-.blogandupdates{
+
+.blogandupdates {
     text-align: center;
 }
-.blogandupdates p{
-    
-        color: #fe5716;
-        text-transform: uppercase;
-        font-weight: bold;
-        letter-spacing: 2px;
-        font-size: 16px;
-        line-height: 26px;
+
+.blogandupdates p {
+
+    color: #fe5716;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 26px;
 }
-.lineblog{
+
+.lineblog {
     margin: auto;
     margin-bottom: 18px;
     margin-top: 4px;
@@ -316,25 +370,30 @@ font-size: 17px;
     height: 3px;
     background-color: #fe5716;
 }
-.headingblog h2{
+
+.headingblog h2 {
     font-size: 48px;
     line-height: 58px;
     font-weight: 800;
     text-transform: capitalize;
-    padding-bottom: 25px 
+    padding-bottom: 25px
 }
-.workers{
+
+.workers {
     width: 100%;
     border-radius: 30px;
 }
-.blogimg{
+
+.blogimg {
     position: relative;
 }
-.news{
- flex-wrap: nowrap;
- gap: 20px;
+
+.news {
+    flex-wrap: nowrap;
+    gap: 20px;
 }
-.posttime{
+
+.posttime {
     position: absolute;
     left: 10px;
     bottom: 25px;
@@ -345,7 +404,8 @@ font-size: 17px;
     padding: 8px 15px;
     border-radius: 30px;
 }
-.designheading{
+
+.designheading {
     color: #666;
     border-bottom: 1px solid #666;
     line-height: 36px;
@@ -354,41 +414,49 @@ font-size: 17px;
     font-size: 14px;
     padding-right: 0;
 }
-.descriptionsolar{
+
+.descriptionsolar {
     text-align: left;
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
     text-transform: capitalize;
 }
-.descriptsolar{
+
+.descriptsolar {
     padding-bottom: 26px;
     color: black;
 }
-.authorpfp img{
+
+.authorpfp img {
     border-radius: 50%;
     margin-right: 10px;
 }
-.authorblock{
+
+.authorblock {
     display: flex;
     align-items: center;
 }
-.authorpfp{
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-}
-.commentimg{
+
+.authorpfp {
     display: flex;
     align-items: center;
     margin-right: 10px;
 }
-.comment{
+
+.commentimg {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.comment {
     margin-right: 10px;
     align-items: center;
 }
-.buttonview{
-    text-decoration:none;
+
+.buttonview {
+    text-decoration: none;
     padding: 16px 34px;
     font-size: 18px;
     background-color: #fe5716;
@@ -397,16 +465,19 @@ font-size: 17px;
     border-radius: 65px;
     color: white;
     font-weight: bold;
-    width: auto;
+    width: 15rem;
+    margin:50px auto;
     position: relative;
     z-index: 1;
-    margin-top: 50px;
+
 }
-.partners{
+
+.partners {
     margin-left: auto;
     margin-right: auto;
 }
-.partners h3{
+
+.partners h3 {
     font-size: 22px;
     line-height: 20px;
     text-align: center;
@@ -417,15 +488,99 @@ font-size: 17px;
     margin: auto;
     margin-bottom: 30px;
 }
-.sponsors{
+
+.sponsors {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sponsors img{
+
+.sponsors img {
     vertical-align: middle;
     width: 18%;
     border-radius: 30px;
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+/* rufetin koduna edilen elaveler */
+.testimonials__sliders__slide{
+    display: flex;
+    justify-content: space-between;
+
+}
+.testimonials__sliders__cut{
+    overflow: hidden;
+}
+.testimonials__sliders{
+    display: flex;
+    width: 600%;
+}
+
+.ps__img{
+    display: inline-block;
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.testimonials__sliders__slide__controler{
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+}
+.ps__controler{
+    padding: 1rem, 0, 1rem ,2rem;
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+.ps__controler a{
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ps__s{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.ps__s::before{
+
+}
+.ps__s:hover::before {
+    content: "";
+    width: 5rem ;
+    height: 5rem;
+    position: absolute;
+    z-index: 2;
+    background-color: #0A9642;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+.mar-1{
+    margin-left: 1.5rem;
+    
+}
+.mar-2{
+    margin-left: 3rem;
+    
+}
+.ps__act::before{
+    content: "";
+    width: 5rem ;
+    height: 5rem;
+    position: absolute;
+    z-index: 2;
+    background-color: #0A9642;
+    opacity: 0.8;
+    border-radius: 50%;
+
+}
+.ps__act{
+    transform: rotate(45deg) translate(1rem , 1rem     );
 }

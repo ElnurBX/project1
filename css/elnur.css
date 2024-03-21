@@ -11,11 +11,10 @@
     padding: 1rem;
     text-decoration: none;
     color: #fff;
-    margin-left: 1rem;
     background-color: #FE5716;
 }
 .button:hover{
-    background-color: #fff;
+    background-color: transparent;
     color: #FE5716;
 }
 .button:hover:after{
