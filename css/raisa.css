@@ -60,8 +60,13 @@ footer a {
      color: white;
 }
 .col4 button {
+<<<<<<< HEAD
      top: 0.3rem;
      position: absolute;
+=======
+     position: absolute;
+     top: 0.3rem;
+>>>>>>> dev
      right: 0.5rem;
      background-color: #FE5716;
      width: 4rem;

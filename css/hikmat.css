@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+=======
+>>>>>>> dev
 /* Section-2 */
 .section-2{
     display: flex;
@@ -237,7 +240,11 @@
 .section-4-items{
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
     width: 300%;
+=======
+    width: 310%;
+>>>>>>> dev
 
 }
 .section4__slider{
@@ -411,6 +418,29 @@ box-shadow: inset 0 0 0 2000px rgba(250,250,250,0.9);
 .video {
     position: relative;
 }
+<<<<<<< HEAD
+=======
+.video i {
+    animation: pulse 1s infinite;
+    width: 94px;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    outline: 5px solid #0a9642;
+    background-color: #0A9642;
+}
+@keyframes pulse{
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.4);
+    }
+    100% {
+        box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+    }
+}
+>>>>>>> dev
 .video img{
     border-radius: 2rem;
 }
@@ -466,3 +496,91 @@ box-shadow: inset 0 0 0 2000px rgba(250,250,250,0.9);
     margin: 0;
     font-weight: 400;
 }
+<<<<<<< HEAD
+=======
+/* Section-6 */
+.section-6 .heading {
+    padding-bottom: 2.5rem;
+}
+.heading {
+    text-align: center;
+    position: relative;
+}
+.section-6 .heading .line {
+    margin: auto;
+    margin-bottom: 1.125rem;
+    margin-top: 0.25rem;
+}
+.section-6 .heading h2 {
+    width: 71%;
+    margin: auto;
+}
+.heading h2 {
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    line-height: 4.125rem;
+    padding-bottom: 1.5rem;
+}
+.heading .line {
+    display: block;
+    width: 5.2rem;
+    height: 3px;
+    background-color: #fe5716;
+    margin-bottom: 1.125rem;
+    margin-top: 0.25rem;
+}
+.heading p {
+    color: #fe5716;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center
+}
+.free-consultation {
+    border: 5px solid #D9D9D9;
+    border-radius: 1.875rem;
+    padding: 25px;
+    padding-left: 0;
+    width: 95%;
+    margin-left: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.free-consultation-number {
+    display: flex;
+    align-items: center;
+    background-color: #FAFAFA;
+    justify-content: space-between;
+    padding-left: 3.125rem;
+    border-radius: 1.875rem;
+    margin-bottom: 1.6rem;
+    margin-left: -1.25rem;
+}
+.free-consultation-number h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 2.25rem;
+}
+.free-consultation span{
+    background-color: #0A9642;
+    color: white;
+    transition: 0.3s ease-in-out;
+    padding: 3rem 1.9rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+.free-consultation:hover{
+    span{
+        background-color: #fe5716;
+    }
+}
+.free-consultation p {
+    padding-left: 3.2rem;
+    padding-bottom: 3.125rem;
+    line-height: 130%;
+}
+.free-consultation svg{
+    margin: 0 0 0 2rem;
+}
+>>>>>>> dev
