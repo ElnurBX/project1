@@ -2,67 +2,6 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    max-width:  1220px;
-    margin: 0 auto;
-}
-
-.row{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between;
-    row-gap: 10px;
-}
-.col-1{
-    width: calc(100% / 12);
-    margin: 0 auto;
-}
-.col-2{
-    width: calc(100% / 6);
-    margin: 0 auto;
-}
-.col-3{
-    width: calc(100% / 4);
-    margin: 0 auto;
-}
-.col-4{
-    width: calc(100% / 3);
-    margin: 0 auto;
-}
-.col-5{
-    width: calc(100% / 12 *5);
-    margin: 0 auto;
-}
-.col-6{
-    
-    width: calc(100% / 2);
-    margin: 0 auto;
-}
-.col-7{
-    width: calc(100% / 12 * 7);
-    margin: 0 auto;
-}
-.col-8{
-    width: calc(100% / 3 * 2);
-    margin: 0 auto;
-}
-.col-9{
-    width: calc(100% / 4 * 3);
-    margin: 0 auto;
-}
-.col-10{
-    width: calc(100% / 6 * 5);
-    margin: 0 auto;
-}
-.col-11{
-    width: calc(100% / 12 * 11);
-    margin: 0 auto;
-}
-.col-12{
-    width: 100%;
-    margin: auto;
-}
 .testimonials{
     display: flex;
     padding: 50px;
@@ -98,7 +37,7 @@ body{
     margin-bottom: 18px;
     margin-top: 4px;
 }
-h2{
+.headingtestimonials h2{
     font-size: 48px;
     line-height: 58px;
     font-weight: 800;
@@ -108,7 +47,7 @@ h2{
  display: flex!important;
 align-items: center!important;
 }
-i{
+.reviewauthor i{
     font-size: 40px;
     color: white;
 }
@@ -129,7 +68,7 @@ i{
     color: gray;
     font-weight: 500;
 }
-h4{
+.positionname h4{
     font-size: 32px;
     font-weight: bold;
 }
@@ -163,12 +102,22 @@ h4{
     z-index: 1;
      margin-top: 18px; 
 }
+.solarenergy p{
+    color: grey;
+}
 .solarenergy img{
     width: 166px;
     height: 166px;
 }
 .solarenergy h2{
+    font-size: 50px;
+    line-height: 56px;
     padding-top: 20px;
+    font-weight: bold;
+}
+.solarenergy span{
+    font-weight: bold;
+    color: #0A9642;
 }
 li img{
     width: 24px !important;
@@ -191,6 +140,10 @@ li img{
 }
 .solarenergy h3{
  padding-top: 20px;
+}
+.solarenergy sub{
+    font-size: 16px;
+    color: grey;
 }
 .button{
     text-decoration:none;
@@ -289,11 +242,13 @@ li img{
 }
 .headingform h2{
     width: 476px;   
-    padding-right: px;
+    font-size: 42px;
+    line-height: 52px;
     padding-bottom: 50px;
 }
 .headingform h6{
     font-size: 16px;
+    line-height: 32px
 }
 .form{
     width: 476px;
@@ -339,6 +294,7 @@ font-size: 17px;
 }
 .blogandupdates{
     padding-top: 300px;
+    padding-bottom: 100px;
 }
 .blogandupdates{
     text-align: center;
@@ -389,14 +345,14 @@ font-size: 17px;
     padding: 8px 15px;
     border-radius: 30px;
 }
-.designheading {
-    margin-right: 225px;
+.designheading{
     color: #666;
     border-bottom: 1px solid #666;
     line-height: 36px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 14px;
+    padding-right: 0;
 }
 .descriptionsolar{
     text-align: left;
@@ -445,4 +401,31 @@ font-size: 17px;
     position: relative;
     z-index: 1;
     margin-top: 50px;
+}
+.partners{
+    margin-left: auto;
+    margin-right: auto;
+}
+.partners h3{
+    font-size: 22px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    display: table;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sponsors img{
+    vertical-align: middle;
+    width: 18%;
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
