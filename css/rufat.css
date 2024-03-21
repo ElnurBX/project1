@@ -9,7 +9,11 @@
 }
 
 
-
+.mainimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .mainimg img {
     width: 360px;
     height: 360px;
@@ -461,10 +465,11 @@ form.request-quote-form textarea::placeholder {
     border-radius: 65px;
     color: white;
     font-weight: bold;
-    width: auto;
+    width: 15rem;
+    margin:50px auto;
     position: relative;
     z-index: 1;
-    margin-top: 50px;
+
 }
 
 .partners {
