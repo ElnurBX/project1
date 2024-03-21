@@ -8,9 +8,7 @@
     padding: 50px;
 }
 
-.mainimg {
-    padding-left: 200px;
-}
+
 
 .mainimg img {
     width: 360px;
@@ -498,4 +496,86 @@ form.request-quote-form textarea::placeholder {
     border-radius: 30px;
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+/* rufetin koduna edilen elaveler */
+.testimonials__sliders__slide{
+    display: flex;
+    justify-content: space-between;
+
+}
+.testimonials__sliders__cut{
+    overflow: hidden;
+}
+.testimonials__sliders{
+    display: flex;
+    width: 600%;
+}
+
+.ps__img{
+    display: inline-block;
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.testimonials__sliders__slide__controler{
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+}
+.ps__controler{
+    padding: 1rem, 0, 1rem ,2rem;
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+.ps__controler a{
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ps__s{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.ps__s::before{
+
+}
+.ps__s:hover::before {
+    content: "";
+    width: 5rem ;
+    height: 5rem;
+    position: absolute;
+    z-index: 2;
+    background-color: #0A9642;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+.mar-1{
+    margin-left: 1.5rem;
+    
+}
+.mar-2{
+    margin-left: 3rem;
+    
+}
+.ps__act::before{
+    content: "";
+    width: 5rem ;
+    height: 5rem;
+    position: absolute;
+    z-index: 2;
+    background-color: #0A9642;
+    opacity: 0.8;
+    border-radius: 50%;
+
+}
+.ps__act{
+    transform: rotate(45deg) translate(1rem , 1rem     );
 }
