@@ -1,0 +1,157 @@
+
+
+footer {
+
+     bottom: 0;
+     font-family: 'Sora';
+     background-image: url(https://cdn.musavat.com/news/thumbnails/1c3a164d04cbc5d8548160bc09734967.jpg);
+     background-size: cover;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+}
+.rowd{
+     padding: 5rem 10rem ;   
+     width: 100%;
+     background: linear-gradient(rgb(23, 25, 90 , 0.9) ,rgb(23, 25, 90, 0.9));
+}
+footer {
+
+     color: white;
+}
+footer a {
+     color: white;
+}
+.footer_container .row-1{
+
+     display: flex;
+     justify-content: space-evenly; 
+     align-items: center;
+     
+}
+.footer_container .row-1 .col4 {
+    width: 25%;
+}
+
+.footer_container h5 {
+     font-size: 22px;
+     line-height: 3.5;
+}
+
+.row-1 .col4 p {
+     line-height: 1.5;
+     padding-bottom: 10px;
+}
+.input {
+     position: relative;
+}
+.col4 input {
+     background-color: rgba(0, 0, 0, 0);
+     width: 25rem;
+     height: 3.5rem;
+     border-radius: 25px;
+     border: 2px solid white;
+     padding: 0px 0px 0px 30px;
+}
+.col4 input::placeholder {
+     font-size: 17px;
+     font-weight: bold;
+     color: white;
+}
+.col4 button {
+     position: absolute;
+     top: 0.3rem;
+     right: 0.5rem;
+     background-color: #FE5716;
+     width: 4rem;
+     height: 3rem;
+     border-radius: 50%;
+     border: 2px solid white;
+
+}
+.col4  i {
+     font-size: 30px;
+     text-align: center;
+     
+}
+.social-mediya {  
+     padding-top: 2rem;
+     
+}
+.social-mediya i {
+     font-size: 1rem;
+}
+.social-mediya ul{
+  display: flex;
+  gap: 1.5rem;
+}
+.social-mediya  ul{
+     list-style: none;
+}
+.social-mediya li i {
+     padding-right: 8px;
+     
+}
+.social-mediya li a{
+     font-size: 14px;
+     font-weight: bold;
+     text-decoration: none;
+     
+}
+
+.footer_contact {
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 80px;
+}
+
+.footer_contact .contact-info {
+     display: flex;
+     align-items: center;
+     padding-top: 5px;
+}
+.footer_contact .col4 {
+     border-radius: 3.5rem;
+     height: 85px;
+     width: 430px;
+     background-color: #0A9642;
+     
+}
+
+.footer_contact .contact-info .svg {
+     margin-top: 0.5rem;
+     margin-left: 1rem;
+     border-radius: 50%;
+     text-align: center;
+     padding-top: 1.2rem;
+     width: 74px;
+     height: 64px;
+     background-color: #FE5716;
+}
+.footer_contact .contact-info .no {
+     padding-top: 10px;
+     padding-left: 1rem;
+}
+.footer_end {
+     font-size: 16px;
+     font-weight: bold;
+     padding-top: 4rem;
+     display: flex;
+     width: 80%;
+     margin: 0 auto;
+     justify-content: space-between;
+
+}
+.footer_end .right ul{
+     display: flex;
+     gap: 20px;
+}
+
+.footer_end ul li{
+     list-style: none;
+     
+}
+.footer_end ul li a {
+     text-decoration: none;
+}
